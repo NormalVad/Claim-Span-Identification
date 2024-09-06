@@ -6,6 +6,11 @@ Empowering the Fact-checkers! Automatic Identification of Claim Spans on Twitter
 
 Accepted at the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP'22), Abu Dhabi, December 7–11, 2022.
 
+Changes Made:
+- Mitigated the overfitting problem in the SOTA DABERTA model for CSI by focusing on the fully connected layers
+-  Developed a heuristic post-processing algorithm based on EDA-derived claim span properties
+-  The modifcations improved the Model’s F1 score from 0.834 to 0.842 and also decreased the training time
+
 Directions to implement the code:
 
 - Create and activate a virtual environment.

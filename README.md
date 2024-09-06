@@ -8,8 +8,8 @@ Accepted at the 2022 Conference on Empirical Methods in Natural Language Process
 
 Directions to implement the code:
 
-a- Create and activate a virtual environment.
-a- Install all the dependencies from the requirements.txt file: pip install -r requirements.txt
-a- Add all datasets in the dataset folder (train, test, and validation). The dataset folder already contains the claim descriptions embeddings from RoBERTa.
-a- Run python daberta.py to run the code: python daberta.py
-a- The model for each epoch will get saved in the models folder.
+- Create and activate a virtual environment.
+- Install all the dependencies from the requirements.txt file: pip install -r requirements.txt
+- Add all datasets in the dataset folder (train, test, and validation). The dataset folder already contains the claim descriptions embeddings from RoBERTa.
+- Run python daberta.py to run the code: python daberta.py
+- The model for each epoch will get saved in the models folder.
